@@ -19,9 +19,9 @@ test:
   timeout: 5000
 
 production:
-    adapter:
-    encoding: utf8
-    database:
-    username:
-    password:
-    host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: tchen_production
+  pool: 5
+  username: shinka
+  password: 1234567
